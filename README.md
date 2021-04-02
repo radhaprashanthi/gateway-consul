@@ -31,4 +31,20 @@ Once all the services are started, the Gateway will forward `/api/billing' to se
 Then, service1 will utilize service2 for some of the information.
 
 ### Screenshots
-All the testing and output screenshots are in screenshots folder.
+All the testing and output screenshots are in screenshots folder..
+
+### Results
+1. Output on top-right when all the services are up and running
+![ ](/screenshots/all-services-running.png?raw=true "All Services are up and running")
+
+
+2. Fallback output on top-right when Service 1 is down
+![ ](/screenshots/Service1-down.png?raw=true "Service 1 is down")
+
+
+3. Fallback output on top-right when Service 2 is down
+![ ](/screenshots/Service2-down.png?raw=true "Service 2 is down")
+
+
+4. All above 3 outputs together
+![ ](/screenshots/outputs.png?raw=true "All outputs")
